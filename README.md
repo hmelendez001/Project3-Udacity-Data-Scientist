@@ -19,10 +19,10 @@ My BLOG is HERE: https://hmelendez001.github.io/2021/12/22/Udacity-Data-Scientis
 
 # How to Run the Python Scripts
 From the root folder run the following python command to process and clean the raw data:<p/>
-##### &nbsp;&nbsp;&nbsp;&nbsp; python data/process_data.py data/user-item-interactions.csv data/articles_community.csv data/IBMArticles.db
+##### &nbsp;&nbsp;&nbsp;&nbsp; python data/process_data.py data/user-item-interactions.csv data/articles_community.csv cloudantNoSQLDBHelder
 
 From the root folder run the following python command to train and save the model:<p/>
-##### &nbsp;&nbsp;&nbsp;&nbsp; python models/train_recommendations.py data/IBMArticles.db models/recommendations.pkl
+##### &nbsp;&nbsp;&nbsp;&nbsp; python models/train_recommendations.py cloudantNoSQLDBHelder models/recommendations.pkl
 
 # How to Run the Web Application
 From the app folder run the following python command:<p/>
