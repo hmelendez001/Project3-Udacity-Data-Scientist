@@ -46,7 +46,7 @@ My BLOG is HERE: https://hmelendez001.github.io/2021/12/22/Udacity-Data-Scientis
 # Summary of the results
 The IBM Cloud article recommendation engine analysis was a great learning exercise in Rank Based, Collaborative Filtering, and Matrix Factorization Recommendations.
   
-Given more time I would have created the Flaske web application dashboard to showcase the recommendation engine and either deployed to the IBM Cloud or Heroku like we did with our prior project 2. Instead I have decided to put the time and effort into the final Project 4 or the final Capstone Project.
+Given more time I would have created a Flask web application dashboard to showcase the recommendation engine and either deployed to the IBM Cloud or Heroku like we did with our prior project 2. Instead I have decided to put the time and effort into the final Project 4 or the final Capstone Project.
 
 # Acknowledgements
 Several code snippets came from previous lessons in our Udacity Data Scientist program. Also, where employed I have credited various contributors from StackOverflow.com, geeksforgeeks.org at https://www.geeksforgeeks.org/, https://www.tutorialspoint.com/ for sample plotly graphs, and the Data Science Stack Exchange at https://datascience.stackexchange.com. A big thank you to our instructors and all those involved in the Udacity program.
