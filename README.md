@@ -39,6 +39,9 @@ My BLOG is HERE: https://hmelendez001.github.io/2021/12/22/Udacity-Data-Scientis
 | README.md | The file you are currently reading |
 | Recommendations_with_IBM.html | The HTML version of the executed Jupyter Notebook |
 | Recommendations_with_IBM.ipynb | The Jupyter Notebook containing the analysis and code for this project |
+| requirements.txt | The required pip install versions of each dependent module |
+| runtime.txt | The minimum python version runtime |
+| worldcloud-1.8.1-cp39-cp39-win_amd64.whl | Included the pre-compiled, binary only, version of wordcloud otherwise we get an error when we pip install wordcloud with python 3.6 and higher of error: Microsoft Visual C++ 14.0 or greater is required |
 
 # Summary of the results
 The IBM Cloud article recommendation engine analysis was a great learning exercise in Rank Based, Collaborative Filtering, and Matrix Factorization Recommendations.
