@@ -37,9 +37,8 @@ My BLOG is HERE: https://hmelendez001.github.io/2021/12/22/Udacity-Data-Scientis
 | top_20.p | Picke file used by project_tests.py to check the results of the analysis |
 | top_5.p | Picke file used by project_tests.py to check the results of the analysis |
 | README.md | The file you are currently reading |
+| Recommendations_with_IBM.html | The HTML version of the executed Jupyter Notebook |
 | Recommendations_with_IBM.ipynb | The Jupyter Notebook containing the analysis and code for this project |
-| requirements.txt | Contains the list of required libraries, a subset of those listed in the "Libraries Used" section above but includes the versions required at run time |
-| runtime.txt | The Python runtime version being used |
 
 # Summary of the results
 The dataset given was imbalanced (i.e. some labels like water have few examples and others like search_and_rescue, security, child_alone, shelter, clothing, etc. had none). We discovered this when first evaluating our model and seeing Scikit warnings that read "UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples." This imbalance affected training the model because our overall precision, recall, f1-score were skewed (with so many 0 results the averages were pulled down). Unlike with other data like financials, temperature readings there really is no way to necessarily impute the data. I cannot simply average out these gaps or even do other imputing strategies like fill forward or fill back data. NLP or Natural Language Processing does not give us these imputing options. Best we might do here to get a better evaluation result would be to emphasize the stats on the categories we know are not missing by passing the labels for the categories we do have.
