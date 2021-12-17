@@ -72,7 +72,7 @@ def sol_4_test(sol_4_dict):
     }
     
     if sol_4_dict == sol_4_dict_1:
-        print("Awesome job!  That's right!  All of the test movies are in the training data, but there are only 20 test users that were also in the training set.  All of the other users that are in the test set we have no data on.  Therefore, we cannot make predictions for these users using SVD.")
+        print("Awesome job!  That's right!  All of the test articles are in the training data, but there are only 20 test users that were also in the training set.  All of the other users that are in the test set we have no data on.  Therefore, we cannot make predictions for these users using SVD.")
     else:
         for k, v in sol_4_dict_1.items():
             if sol_4_dict_1[k] != sol_4_dict[k]:
